@@ -1,0 +1,20 @@
+{
+  "name": "DigitGame",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "dependencies": {
+    "heapdump": "~0.3.4",
+    "lodash": "~4.13.1",
+    "md5": "^2.2.1",
+    "node-uuid": "~1.4.3",
+    "pomelo": "rain1017/pomelo",
+    "quick-pomelo": "rain1017/quick-pomelo",
+    "xmlreader": "^0.2.3",
+    "memdb-server": "^0.5.7"
+  },
+  "devDependencies": {
+    "redis": "~0.12.1",
+    "mongodb": "~2.0.39"
+  }
+}

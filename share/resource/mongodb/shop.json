@@ -1,0 +1,9 @@
+{"_id":"1","type":1,"name":"木质宝箱","desc":"赠送400万游戏币","rmb":600,"gold":4000000,"backRmb":200}
+{"_id":"2","type":1,"name":"青铜宝箱","desc":"赠送800万游戏币","rmb":1000,"gold":8000000,"backRmb":200}
+{"_id":"3","type":1,"name":"白银宝箱","desc":"赠送1800万游戏币","rmb":2000,"gold":18000000,"backRmb":300}
+{"_id":"4","type":1,"name":"黄金宝箱","desc":"赠送4600万游戏币","rmb":5000,"gold":46000000,"backRmb":700}
+{"_id":"5","type":1,"name":"钻石宝箱","desc":"赠送9500万游戏币","rmb":10000,"gold":95000000,"backRmb":1200}
+{"_id":"6","type":1,"name":"至尊宝箱","desc":"赠送5亿游戏币","rmb":50000,"gold":500000000,"backRmb":5000}
+{"_id":"7","type":2,"name":"月卡","desc":"月卡特权","rmb":5000,"wate_rate":0.03,"gold":8880000,"continue_time":2.592e+09,"everyday_gold":1000000,"backRmb":0}
+{"_id":"8","type":2,"name":"终身卡","desc":"终身卡特权","rmb":50000,"wate_rate":0.01,"gold":188880000,"continue_time":-1,"everyday_gold":1000000,"backRmb":0}
+{"_id":"9","type":3,"name":"比武卡x1","desc":"创建擂台使用","rmb":1200,"gold":0,"num":1,"backRmb":200}

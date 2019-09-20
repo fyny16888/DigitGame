@@ -1,0 +1,133 @@
+{
+    "shards": {
+        "connector-server-1": {
+            "host": "127.0.0.1",
+            "port": 52017
+        },
+        "connector-server-2": {
+            "host": "127.0.0.1",
+            "port": 52017
+        },
+        "connector-server-3": {
+            "host": "127.0.0.1",
+            "port": 52017
+        },
+        "connector-server-4": {
+            "host": "127.0.0.1",
+            "port": 52017
+        },
+        "connector-server-5": {
+            "host": "127.0.0.1",
+            "port": 52017
+        },
+        "hall-server-1": {
+            "host": "127.0.0.1",
+            "port": 52027
+        },
+        "http-server-1": {
+            "host": "127.0.0.1",
+            "port": 52027
+        },
+        "_animal-server": {
+            "host": "127.0.0.1",
+            "port": 52037
+        },
+        "animal-server-1": {
+            "host": "127.0.0.1",
+            "port": 52037
+        },
+        "animal-server-2": {
+            "host": "127.0.0.1",
+            "port": 52037
+        },
+        "animal-server-3": {
+            "host": "127.0.0.1",
+            "port": 52037
+        },
+        "_golden-server": {
+            "host": "127.0.0.1",
+            "port": 52047
+        },
+        "golden-server-1": {
+            "host": "127.0.0.1",
+            "port": 52047
+        },
+        "golden-server-2": {
+            "host": "127.0.0.1",
+            "port": 52047
+        },
+        "golden-server-3": {
+            "host": "127.0.0.1",
+            "port": 52047
+        },
+        "_niuniu-server": {
+            "host": "127.0.0.1",
+            "port": 52057
+        },
+        "niuniu-server-1": {
+            "host": "127.0.0.1",
+            "port": 52057
+        },
+        "niuniu-server-2": {
+            "host": "127.0.0.1",
+            "port": 52057
+        },
+        "niuniu-server-3": {
+            "host": "127.0.0.1",
+            "port": 52057
+        },
+        "to-server-1": {
+            "host": "127.0.0.1",
+            "port": 52067
+        },
+        "pk-server-1": {
+            "host": "127.0.0.1",
+            "port": 52077
+        },
+        "http-server-2": {
+            "host": "127.0.0.1",
+            "port": 52087
+        },
+        "ddz-server-1": {
+            "host": "127.0.0.1",
+            "port": 52097
+        },
+        "ddz-server-2": {
+            "host": "127.0.0.1",
+            "port": 52097
+        },
+        "tw-server-1": {
+            "host": "127.0.0.1",
+            "port": 52107
+        },
+        "tw-server-2": {
+            "host": "127.0.0.1",
+            "port": 52107
+        },
+        "clown-server-1": {
+            "host": "127.0.0.1",
+            "port": 52067
+        },
+        "_fruit-server": {
+            "host": "127.0.0.1",
+            "port": 52117
+        },
+        "fruit-server-1": {
+            "host": "127.0.0.1",
+            "port": 52117
+        },
+        "fruit-server-2": {
+            "host": "127.0.0.1",
+            "port": 52117
+        },
+        "fruit-server-3": {
+            "host": "127.0.0.1",
+            "port": 52117
+        }
+    },
+    "backend": {
+        "engine": "mongodb",
+        "url": "mongodb://root:admin@localhost/digitgame?authSource=admin"
+    },
+    "maxPendingTask": 10000
+}

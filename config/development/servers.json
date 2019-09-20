@@ -1,0 +1,71 @@
+{
+    "gate": [
+        {"id": "gate-server", "host": "0.0.0.0", "port": 53010, "clientPort": 7010, "frontend": true, "args": ""}
+    ],
+    "connector": [
+        {"id": "connector-server-1", "host": "127.0.0.1", "clientHost": "192.168.0.1", "port": 53100, "clientPort": 7100, "frontend": true, "args": ""},
+        {"id": "connector-server-2", "host": "127.0.0.1", "clientHost": "192.168.0.1", "port": 53101, "clientPort": 7101, "frontend": true, "args": ""},
+        {"id": "connector-server-3", "host": "127.0.0.1", "clientHost": "192.168.0.1", "port": 53102, "clientPort": 7102, "frontend": true, "args": ""},
+        {"id": "connector-server-4", "host": "127.0.0.1", "clientHost": "192.168.0.1", "port": 53103, "clientPort": 7103, "frontend": true, "args": ""},
+        {"id": "connector-server-5", "host": "127.0.0.1", "clientHost": "192.168.0.1", "port": 53104, "clientPort": 7104, "frontend": true, "args": ""}
+    ],
+    "hall" : [
+		{"id": "hall-server-1", "host": "127.0.0.1", "port": 53200, "args": ""}
+    ],
+    "animal" : [
+        {"id": "animal-server-1", "host": "127.0.0.1", "port": 53301, "args": ""},
+        {"id": "animal-server-2", "host": "127.0.0.1", "port": 53302, "args": ""},
+        {"id": "animal-server-3", "host": "127.0.0.1", "port": 53303, "args": ""}
+    ],
+    "_animal": [
+        {"id": "_animal-server", "host": "127.0.0.1", "port": 53300, "args": ""}
+    ],
+    "golden" : [
+        {"id": "golden-server-1", "host": "127.0.0.1", "port": 53401, "args": ""},
+        {"id": "golden-server-2", "host": "127.0.0.1", "port": 53402, "args": ""},
+        {"id": "golden-server-3", "host": "127.0.0.1", "port": 53403, "args": ""}
+    ],
+    "_golden": [
+        {"id": "_golden-server", "host": "127.0.0.1", "port": 53400, "args": ""}
+    ],
+    "niuniu" : [
+        {"id": "niuniu-server-1", "host": "127.0.0.1", "port": 53501, "args": ""},
+        {"id": "niuniu-server-2", "host": "127.0.0.1", "port": 53502, "args": ""},
+        {"id": "niuniu-server-3", "host": "127.0.0.1", "port": 53503, "args": ""}
+    ],
+    "_niuniu": [
+        {"id": "_niuniu-server", "host": "127.0.0.1", "port": 53500, "args": ""}
+    ],
+    "to": [
+        {"id": "to-server-1", "host": "127.0.0.1", "port": 53600, "args": ""}
+    ],
+    "http": [
+        {"id": "http-server-1", "host": "127.0.0.1", "port": 53700, "entryJs": "payServer.js", "httpPort": 82, "args": ""},
+        {"id": "http-server-2", "host": "127.0.0.1", "port": 53701, "entryJs": "datServer.js", "httpPort": 83, "args": ""}
+    ],
+    "pk": [
+        {"id": "pk-server-1", "host": "127.0.0.1", "port": 53800, "args": ""}
+    ],
+    "ddz": [
+        {"id": "ddz-server-1", "host": "127.0.0.1", "port": 53900, "args": ""},
+        {"id": "ddz-server-2", "host": "127.0.0.1", "port": 53901, "args": ""}
+    ],
+    "tw": [
+        {"id": "tw-server-1", "host": "127.0.0.1", "port": 54001, "args": ""},
+        {"id": "tw-server-2", "host": "127.0.0.1", "port": 54002, "args": ""}
+    ],
+    "checker": [
+        {"id": "bets-check-server", "host": "127.0.0.1", "port": 54000, "args": ""}
+    ],
+    "clown": [
+        {"id": "clown-server-1", "host": "127.0.0.1", "port": 54101, "args": ""}
+    ],
+    "fruit" : [
+        {"id": "fruit-server-1", "host": "127.0.0.1", "port": 54201, "args": ""},
+        {"id": "fruit-server-2", "host": "127.0.0.1", "port": 54202, "args": ""},
+        {"id": "fruit-server-3", "host": "127.0.0.1", "port": 54203, "args": ""}
+    ],
+    "_fruit": [
+        {"id": "_fruit-server", "host": "127.0.0.1", "port": 54200, "args": ""}
+    ]
+}
