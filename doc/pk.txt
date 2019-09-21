@@ -1,0 +1,47 @@
+﻿创建房间 pk.pkHandler.createGame
+	奖金  money
+	密码	password
+返回成功 
+	奖金  money
+	密码	password
+	房号  room
+
+
+进入房间 pk.pkHandler.joinGame
+	房号   room
+	密码  password
+	
+返回 成功
+	
+	奖金  money player:{gold vip chairId headurl}
+
+通知对方相关的消息（桌子上所有人的信息）pk_join
+{对手的头像金币，vip 相关的数据}
+
+
+出拳pk.pkHandler.setHand
+	type (0 锤   1 剪刀  2 布）
+	
+通知结果 pk_result
+
+   { result: （猜拳结果-1为平局0,1各为赢得椅子ID）, hands: 顺序出拳 }
+
+离开房间 pk.pkHandler.leaveGame
+
+	
+返回 成功
+
+
+'323',						// 已经出拳
+'324',						// 未做满
+'321',						// 游戏次数不足
+'322',						// 游戏密码错误
+
+
+pk_event:    join: 1, result: 2, leave: 3
+	
+	
+
+	
+	
+	
