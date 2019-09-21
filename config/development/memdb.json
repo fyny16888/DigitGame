@@ -127,7 +127,7 @@
     },
     "backend": {
         "engine": "mongodb",
-        "url": "mongodb://root:admin@localhost/digitgame?authSource=admin"
+        "url": "mongodb://localhost/digitgame"
     },
     "maxPendingTask": 10000
 }

@@ -27,7 +27,7 @@ module.exports = {
     // Global backend storage, all shards must connect to the same mongodb (cluster)
     backend: {
         engine: 'mongodb', // should be 'mongodb'
-        url: 'mongodb://root:admin@localhost/digitgame?authSource=admin', // mongodb connect string
+        url: 'mongodb://localhost/digitgame', // mongodb://root:admin@localhost/digitgame?authSource=admin
         options: {}, // mongodb connect options
     },
 
